@@ -27,7 +27,7 @@ export class OfficeMakerService {
     const url = this.baseURL + 'desks/';
     const body = {
       roomId: roomId,
-      LocacationRow: LocationRow,
+      LocationRow: LocationRow,
       LocationCol: LocationCol,
       Height: Height,
       Width: Width,
